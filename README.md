@@ -2,16 +2,17 @@
 
 ## TODO
 
-[] clear architecture
-[] variables and functions
-[] structs
-[] tests
-[] interfaces
-[] errors
+- [ ] clear architecture
+- [ ] variables and functions
+- [ ] structs
+- [ ] tests
+- [ ] interfaces
+- [ ] errors
 
 ## Clear architecture
 
 When you start a new project, you should think about the architecture of your project. You should think about the following things:
+
     - How many layers do you need?
     - What is the responsibility of each layer?
     - How do you want to communicate between the layers?
@@ -19,6 +20,7 @@ When you start a new project, you should think about the architecture of your pr
 
 ### Layers
 To create a project with clear architecture, you should create the following layers:
+
     - Domain
     - Application
     - Infrastructure
@@ -26,6 +28,7 @@ To create a project with clear architecture, you should create the following lay
 
 #### Domain
 In this layer, you should create the following things:
+
     - Value Objects
     - Entities
     - Interfaces
@@ -56,7 +59,7 @@ type UserRepository interface {
     Delete(user User) error
 }
 ```
-example:
+- example:
     - Value Objects
         - Email
         - Password
